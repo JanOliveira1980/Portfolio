@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Portfolio</title>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navigation">
+            <div class="myphoto"></div>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#principal">HOME</a></li>
+                <li class="nav-item"><a href="#skills">SKILLS</a></li>
+                <li class="nav-item"><a href="#projects">PROJETOS</a></li>
+                <li class="nav-item"><a href="#footer">CONTATOS</a></li>
+
+            </ul>
+            <div class="menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+
+            </div>
+        </nav>
+    </header>
+    <main class="principal" id="principal">
+        <section class="home">
+            <div class="home-text">
+                <h4 class="text-h4">Desenvolvedor Front End</h4>
+                <h1 class="text-h1">Janilson Oliveira</h1>
+                <p>"Transforme desafios em oportunidades e construa o futuro que você merece com determinação e paixão."
+                </p>
+                <a href="#about" class="home-btn">Sobre mim</a>
+            </div>
+            <img src="./assets/composition-background.png" alt="imagem compõe background" id="comp-bg-img">
+
+        </section>
+    </main>
+    <section class="skills" id="skills">
+        <div class="home-img">
+            <h2>SKILLS</h2>
+            <div class="skills-box">
+                <div class="skills-logo" id="logo1" onmouseover="showMessage()" onmouseout="hideMessage()"></div>
+                <div class="skills-logo" id="logo2" onmouseover="showMessage2()" onmouseout="hideMessage2()"></div>
+                <div class="skills-logo" id="logo3" onmouseover="showMessage3()" onmouseout="hideMessage3()"></div>
+                <div class="skills-logo" id="logo4" onmouseover="showMessage4()" onmouseout="hideMessage4()"></div>
+
+            </div>
+            <div class="skills-message-box">
+                <div id="html-logo"><strong>HTML5</strong> - Páginas web estruturadas, permitindo
+                    a exibição de texto, imagens, links, formulários e mídia, além de fornecer uma base para
+                    o design e a interatividade</div>
+                <div id="css-logo"><strong>CSS3</strong> - Estilizar e controlar a apresentação visual de
+                    páginas web, incluindo formatação de texto, núcleos, layout, posicionamento de elementos e
+                    responsividade, melhorando a aparência e a usabilidade dos sites.</div>
+                <div id="js-logo"><strong>JavaScript</strong> - Adicionar interatividade dinâmica a páginas
+                    web, permitindo a criação de funcionalidades como animações, validação de formulários, tornando
+                    os sites mais poderosos e dinâmicos.</div>
+                <div id="github-logo"><strong>GitHub</strong> - Hospedar e gerenciar projetos de
+                    desenvolvimento de software, permitindo o controle de versões, colaboração de equipes e
+                    publicação de código-fonte de forma compartilhada e colaborativa.</div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-box">
+            <div class="about-img">
+
+            </div>
+
+            <h2 id="abouth2">Sobre Mim</h2>
+            <p id="aboutp">Estou sempre procurando por novas ferramentas e tecnologias para melhorar minhas habilidades. Meu
+                objetivo é criar sites que não só pareçam ótimos, mas também ofereçam uma experiência de usuário
+                excelente e intuitiva. Estou ansioso para trabalhar em varios projetos e aprender com outros
+                desenvolvedores experientes. Se você precisa de ajuda com seu site ou está procurando um parceiro de
+                desenvolvimento, adoraria ter a oportunidade de trabalhar com você.
+            </p>
+
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <h2>PROJETOS</h2>
+        <div class="cards-box">
+            <div class="cards-container">
+                <img src="./assets/conversor-de-moedas.png" alt="">
+                <div class="description-card">
+                    <h3>Conversor de Moedas</h3>
+                    <p>Um conversor de moedas feito com HTML, CSS e JavaScript, que permite aos
+                        usuários inserir um valor em uma moeda e convertê-lo instantaneamente para outra moeda usando
+                        taxas de câmbio atualizadas, exibindo o resultado na página.</p>
+                    <a href="#" id="projects-btn">Clique Aqui</a>
+                </div>
+
+            </div>
+            <div class="cards-container">
+                <img src="./assets/em-construcao.jpg" alt="">
+                <div class="description-card">
+                    <h3>Ágape </h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere debitis vel doloribus alias ut
+                        repellat assumenda architecto culpa, explicabo vero, nisi animi maxime officia commodi illo
+                        exercitationem illum enim excepturi?</p>
+                    <a href="#" id="projects-btn">Clique Aqui</a>
+                </div>
+            </div>
+            <div class="cards-container">
+                <img src="./assets/em-construcao.jpg" alt="">
+                <div class="description-card">
+                    <h3>Descrição</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facere debitis vel doloribus alias ut
+                        repellat assumenda architecto culpa, explicabo vero, nisi animi maxime officia commodi illo
+                        exercitationem illum enim excepturi?</p>
+                    <a href="#" id="projects-btn">Clique Aqui</a>
+
+
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <footer class="footer" id="footer">
+        <div class="footer-contain">
+            <div class="logo-footer">
+                <a class="footer-logo" href="www.linkedin.com/in/janilson-oliveira-dev"><i class='bx bxl-linkedin-square'></i></a>
+                <a class="footer-logo" href="#"><i class='bx bxl-whatsapp'></i></i></a>
+                <a class="footer-logo" href="#"><i class='bx bxl-telegram'></i></i></a>
+                <a class="footer-logo" href="https://github.com/JanOliveira1980/agapedesenvolvimentoweb"><i class='bx bxl-github'></i></i></a>
+            </div>
+
+
+        </div>
+        <p>Janilson Oliveira 2023 - Todos os direitos reservados</p>
+
+    </footer>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
